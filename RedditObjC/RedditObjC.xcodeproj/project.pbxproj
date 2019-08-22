@@ -12,6 +12,8 @@
 		E8AF1370230F2EEB00A39E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AF136F230F2EEB00A39E81 /* Assets.xcassets */; };
 		E8AF1373230F2EEB00A39E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AF1371230F2EEB00A39E81 /* LaunchScreen.storyboard */; };
 		E8AF1376230F2EEB00A39E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AF1375230F2EEB00A39E81 /* main.m */; };
+		E8AF1382230F306100A39E81 /* JRCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AF1381230F306100A39E81 /* JRCPost.m */; };
+		E8AF1385230F3C9C00A39E81 /* JRCPostController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AF1384230F3C9C00A39E81 /* JRCPostController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,10 @@
 		E8AF1372230F2EEB00A39E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8AF1374230F2EEB00A39E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8AF1375230F2EEB00A39E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8AF1380230F306100A39E81 /* JRCPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRCPost.h; sourceTree = "<group>"; };
+		E8AF1381230F306100A39E81 /* JRCPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRCPost.m; sourceTree = "<group>"; };
+		E8AF1383230F3C9C00A39E81 /* JRCPostController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRCPostController.h; sourceTree = "<group>"; };
+		E8AF1384230F3C9C00A39E81 /* JRCPostController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRCPostController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,8 @@
 		E8AF137C230F2F6F00A39E81 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8AF1380230F306100A39E81 /* JRCPost.h */,
+				E8AF1381230F306100A39E81 /* JRCPost.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -74,6 +82,8 @@
 		E8AF137D230F2F7300A39E81 /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				E8AF1383230F3C9C00A39E81 /* JRCPostController.h */,
+				E8AF1384230F3C9C00A39E81 /* JRCPostController.m */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -171,6 +181,8 @@
 			files = (
 				E8AF1376230F2EEB00A39E81 /* main.m in Sources */,
 				E8AF1368230F2EE700A39E81 /* AppDelegate.m in Sources */,
+				E8AF1382230F306100A39E81 /* JRCPost.m in Sources */,
+				E8AF1385230F3C9C00A39E81 /* JRCPostController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
